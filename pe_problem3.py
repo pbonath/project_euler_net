@@ -8,10 +8,10 @@ prime_factors: list[int] = []
 divider: int = 2
 quotient: int = NUMBER
 
-# runs as long as the quotient is larger than one
+# runs until the quotient is smaller or equal to 1
 while True:
 
-    # runs as long as quotient/divider is a natural number
+    # runs until quotient/divider is a natural number
     while True:
         # check if quotient/divider is a natural number
         if quotient%divider == 0:
